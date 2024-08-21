@@ -1,13 +1,13 @@
+#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    int x, y;
-    printf("what's x? ");
-    scanf("%d", &x);
+    int x = get_int("what's x? ");
+    printf("You entered: %d\n", x);
 
-    printf("what's y? ");
-    scanf("%d", &y);
+    int y = get_int("what's y? ");
+    printf("You entered: %d\n", y);
 
     if (x < y) 
     {
