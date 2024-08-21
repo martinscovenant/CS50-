@@ -2,6 +2,8 @@
 
 int main(void)
 {
-    printf("hello, world\n");
-     printf("hello, world\n");
+    char answer[100];  // Declare a character array to hold the string
+    printf("what's your name? ");
+    scanf("%99s", answer);  // Read the input string
+    printf("hello, %s\n", answer);
 }
