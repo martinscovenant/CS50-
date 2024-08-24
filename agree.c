@@ -1,16 +1,18 @@
-#include <cs50.h>agre
 #include <stdio.h>
 
 int main(void)
 {
-   char c = get_char("Do you agree? ");
+    // Prompt user for input
+    printf("Do you agree? ");
+    char c = getchar();
 
-   if (c == 'y' || c == 'Y')
-   {
-    printf("Agreed.\n");
-   }
-   else if (c == 'n' || c == 'N')
-   {
-    printf("Not agreed.\n");
-   }
-}
+    // Check the character
+    if (c == 'y' || c == 'Y')
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'n' || c == 'N')
+    {
+        printf("Not agreed.\n");
+    }
+}./agre
