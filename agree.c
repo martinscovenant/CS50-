@@ -3,7 +3,7 @@
 int main(void)
 {
     // Prompt user for input
-    printf("Do you agree? ");
+    printf("Do you agree or not ? ");
     char c = getchar();
 
     // Check the character
